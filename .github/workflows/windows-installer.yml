@@ -29,6 +29,8 @@ jobs:
           target: x86_64-pc-windows-msvc
       - name: Install frontend dependencies
         run: npm install
+      - name: Generate Windows app icon
+        run: npx tauri icon src-tauri/icons/hearth.svg --output src-tauri/icons
       - name: Build NSIS installer
         run: npm run build
       - name: Publish installer artifact

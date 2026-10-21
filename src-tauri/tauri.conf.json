@@ -25,6 +25,7 @@
   "bundle": {
     "active": true,
     "targets": "nsis",
+    "icon": ["icons/icon.ico"],
     "category": "Game",
     "shortDescription": "A cozy Minecraft launcher prototype"
   }
