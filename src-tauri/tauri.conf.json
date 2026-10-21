@@ -24,7 +24,7 @@
   },
   "bundle": {
     "active": true,
-    "targets": "all",
+    "targets": "nsis",
     "category": "Game",
     "shortDescription": "A cozy Minecraft launcher prototype"
   }
